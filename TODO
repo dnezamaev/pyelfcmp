@@ -1,0 +1,12 @@
+Settings. JSON or XML file. 
+Event levels dict {int: str}. Like {0: ignored, 1: info, 2: warning, 3: error}.
+Events {type: int level}. Like {section.header.sh_name: 0}
+List of events to group by type, level, file, etc...
+List of ignored section names, types and segment types, etc. Maybe by event level = ignored.
+Deeper analysis of sections and segments by type.
+
+More tests. Same named sections. Overlapped and unused blocks.
+
+HTML report generator for web server.
+
+GUI. With tree of changes, filters, sortings. Ah, sweet dreams...
